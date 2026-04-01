@@ -1,0 +1,41 @@
+# LaTeX auxiliary and build outputs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# TeXPad
+#.texpadtmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+
+# OS and editors
+.DS_Store
+*.swp
+*~
+
+# Lean / Lake
+.lake/
+
+# Local tooling (if present)
+.claude/settings.local.json
+backup.bundle
